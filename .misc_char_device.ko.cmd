@@ -1,0 +1,1 @@
+cmd_/home/priya/misc_char_device.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id  -T ./scripts/module-common.lds -o /home/priya/misc_char_device.ko /home/priya/misc_char_device.o /home/priya/misc_char_device.mod.o;  true
